@@ -1,0 +1,6 @@
+/Users/peluche/KALIP/target/debug/deps/zmij-754a64b4ebe6bb0b.d: /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zmij-1.0.19/src/lib.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zmij-1.0.19/src/traits.rs
+
+/Users/peluche/KALIP/target/debug/deps/libzmij-754a64b4ebe6bb0b.rmeta: /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zmij-1.0.19/src/lib.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zmij-1.0.19/src/traits.rs
+
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zmij-1.0.19/src/lib.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zmij-1.0.19/src/traits.rs:

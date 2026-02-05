@@ -1,0 +1,104 @@
+   0.644127500s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint: fingerprint error for klp v0.1.0 (/Users/peluche/KALIP)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("klp", ["lib"], "/Users/peluche/KALIP/src/lib.rs", Edition2021) }
+   0.644411542s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/peluche/KALIP/target/debug/.fingerprint/klp-29710ccdc1e1adec/lib-klp`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.796400000s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint: fingerprint error for klp v0.1.0 (/Users/peluche/KALIP)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("klp", ["lib"], "/Users/peluche/KALIP/src/lib.rs", Edition2021) }
+   0.796417792s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/peluche/KALIP/target/debug/.fingerprint/klp-01cc7aabc130d373/test-lib-klp`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.798410625s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint: fingerprint error for klp v0.1.0 (/Users/peluche/KALIP)/Check { test: false }/TargetInner { name: "klp", doc: true, ..: with_path("/Users/peluche/KALIP/src/main.rs", Edition2021) }
+   0.798419167s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/peluche/KALIP/target/debug/.fingerprint/klp-4c9fd027d34abda9/bin-klp`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.800359667s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint: fingerprint error for klp v0.1.0 (/Users/peluche/KALIP)/Check { test: true }/TargetInner { name: "klp", doc: true, ..: with_path("/Users/peluche/KALIP/src/main.rs", Edition2021) }
+   0.800366459s  INFO prepare_target{force=false package_id=klp v0.1.0 (/Users/peluche/KALIP) target="klp"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/peluche/KALIP/target/debug/.fingerprint/klp-bb97fb20eddd725f/test-bin-klp`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+    Checking klp v0.1.0 (/Users/peluche/KALIP)
+error: could not compile `klp` (lib test) due to 2 previous errors; 35 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `klp` (lib) due to 2 previous errors; 35 warnings emitted

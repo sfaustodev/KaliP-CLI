@@ -1,0 +1,13 @@
+/Users/peluche/KALIP/target/debug/deps/heck-df55b1512e940b76.d: /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lib.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/kebab.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lower_camel.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_kebab.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_snake.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/snake.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/title.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/train.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/upper_camel.rs
+
+/Users/peluche/KALIP/target/debug/deps/libheck-df55b1512e940b76.rmeta: /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lib.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/kebab.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lower_camel.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_kebab.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_snake.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/snake.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/title.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/train.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/upper_camel.rs
+
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lib.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/kebab.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lower_camel.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_kebab.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_snake.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/snake.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/title.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/train.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/upper_camel.rs:

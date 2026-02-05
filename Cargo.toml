@@ -1,0 +1,126 @@
+[package]
+name = "klp"
+version = "0.1.0"
+edition = "2021"
+authors = ["KLP Team <klp@kalilinux.org>"]
+description = "Kali Language Processor - AI-powered CLI agent for ethical hacking and system control"
+license = "GPL-3.0"
+repository = "https://github.com/kalilinux/klp"
+keywords = ["kali", "linux", "security", "pentest", "ai", "cli"]
+categories = ["command-line-utilities", "development-tools", "security"]
+rust-version = "1.75.0"
+
+[[bin]]
+name = "klp"
+path = "src/main.rs"
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.35", features = ["full", "rt-multi-thread", "macros", "process", "signal", "fs"] }
+tokio-util = { version = "0.7", features = ["codec", "io"] }
+
+# Async trait support
+async-trait = "0.1"
+
+# CLI parsing
+clap = { version = "4.4", features = ["derive", "cargo", "env", "wrap_help", "unicode"] }
+clap_complete = "4.4"
+
+# Serialization
+toml = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# TUI (Terminal User Interface)
+ratatui = { version = "0.24", features = ["all-widgets", "macros"] }
+crossterm = { version = "0.27", features = ["event-stream", "serde"] }
+tui-textarea = "0.4"
+tui-widgets = "0.3"
+
+# HTTP client for API calls
+reqwest = { version = "0.11", features = ["json", "stream", "multipart", "rustls-tls"], default-features = false }
+
+# Templating for code generation
+tera = { version = "1.19", default-features = false }
+handlebars = "5.0"
+
+# Database and encryption
+rusqlite = { version = "0.30", features = ["bundled", "chrono", "serde_json", "uuid"] }
+aes-gcm = "0.10"
+argon2 = "0.5"
+rand = "0.8"
+sha2 = "0.10"
+hex = "0.4"
+
+# Chrome CDP control - using system commands
+# headless_chrome = { version = "1.0", features = ["fetch"] }
+# chromiumoxide = { version = "0.5", features = ["tokio-runtime"], optional = true }
+
+# Connectivity (SSH, RDP, VNC)
+ssh2 = "0.9"
+# rdp and vnc dependencies removed - use system commands instead
+
+# PDF report generation
+genpdf = { version = "0.2", features = ["images"] }
+printpdf = "0.7"
+image = "0.24"
+
+# Scheduler and notifications
+cron = "0.12"
+cron-parser = "0.9"
+
+# Voice recognition - using system commands instead
+# whisper-rs = { version = "0.8", optional = true }
+# cpal = { version = "0.15", optional = true }
+
+# Process and system monitoring
+sysinfo = "0.30"
+nix = { version = "0.27", features = ["process", "signal", "term"] }
+
+# Utilities
+dirs = "5.0"
+whoami = "1.4"
+
+# File and path operations
+tempfile = "3.9"
+walkdir = "2.4"
+glob = "0.3"
+path-absolutize = "3.1"
+
+# Logging and error handling
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Time and date
+chrono = { version = "0.4", features = ["serde"] }
+humantime = "2.1"
+
+# Regular expressions
+regex = "1.10"
+
+# Terminal colors and styling
+ansi_term = "0.12"
+colored = "2.1"
+console = "0.15"
+indicatif = "0.17"
+
+# Editor integration
+which = "6.0"
+
+# Optional features
+[features]
+default = []
+minimal = []
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[profile.dev]
+opt-level = 0
+debug = true

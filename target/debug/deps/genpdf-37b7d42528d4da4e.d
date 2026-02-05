@@ -1,0 +1,12 @@
+/Users/peluche/KALIP/target/debug/deps/genpdf-37b7d42528d4da4e.d: /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/lib.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/wrap.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements/images.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/error.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/fonts.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/render.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/style.rs
+
+/Users/peluche/KALIP/target/debug/deps/libgenpdf-37b7d42528d4da4e.rmeta: /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/lib.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/wrap.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements/images.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/error.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/fonts.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/render.rs /Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/style.rs
+
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/lib.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/wrap.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements/images.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/error.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/fonts.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/render.rs:
+/Users/peluche/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/style.rs:
