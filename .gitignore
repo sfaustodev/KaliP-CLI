@@ -1,0 +1,19 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# KLP Secrets and Logs
+secrets/
+logs/

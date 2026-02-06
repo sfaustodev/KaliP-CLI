@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "github.com/NightTrek/Software-planning-mcp": {
+      "command": "node",
+      "args": [
+        "/Users/peluche/KALIP/src/software-planning-mcp/build/index.js"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
