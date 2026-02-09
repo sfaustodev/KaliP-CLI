@@ -17,3 +17,76 @@ Thumbs.db
 # KLP Secrets and Logs
 secrets/
 logs/
+
+# ============================================
+# API KEYS AND SENSITIVE CONFIGURATION
+# ============================================
+
+# Environment variables and API keys
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# API key files
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*api*key*
+*api-key*
+*api_key*
+*secret*
+*token*
+*password*
+*credential*
+
+# Configuration files that might contain secrets
+config.toml
+config.yaml
+config.yml
+config.json
+settings.toml
+settings.yaml
+settings.yml
+settings.json
+secrets.toml
+secrets.yaml
+secrets.yml
+secrets.json
+
+# KaliP specific (user config stored in ~/.klp/)
+.klp/
+.klp/config.toml
+.klp/*.key
+.klp/*.db
+.klp/history.json
+.klp/log.db
+.klp/.voice_cache/
+
+# Application specific
+*.session
+*.cookie
+*.auth
+webhook*
+
+# Database files with potential sensitive data
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Node modules (if any JavaScript/TypeScript components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
