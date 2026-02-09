@@ -90,3 +90,23 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ============================================
+# NEW: SKILLS AND MCP CONFIGURATION
+# ============================================
+
+# External skill symlinks (user-specific)
+.agent/skills/external/
+
+# Shared AI agents environment
+.ai-agents/
+~/.ai-agents/
+
+# MCP server runtime files
+.mcp/
+*.mcp.json
+
+# Skills temporary files
+.agent/skills/**/tmp/
+.agent/skills/**/cache/
+.agent/skills/**/__pycache__/

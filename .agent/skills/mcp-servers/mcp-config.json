@@ -1,0 +1,52 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/peluche/KALIP", "/Users/peluche/.ai-agents"],
+      "description": "Local filesystem access for reading and writing files"
+    },
+    "git": {
+      "command": "uvx",
+      "args": ["mcp-server-git", "--repository", "/Users/peluche/KALIP"],
+      "description": "Git repository operations"
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "description": "GitHub API integration"
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"],
+      "description": "Fetch web content in various formats"
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "env": {
+        "UPSTASH_REDIS_REST_URL": "${UPSTASH_REDIS_URL}",
+        "UPSTASH_REDIS_REST_TOKEN": "${UPSTASH_REDIS_TOKEN}"
+      },
+      "description": "Documentation search and context retrieval"
+    },
+    "anthropic": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/mcp-server"],
+      "env": {
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"
+      },
+      "description": "Anthropic Claude MCP server"
+    },
+    "env-bridge": {
+      "command": "/Users/peluche/.ai-agents/mcp-servers/env-bridge/server.py",
+      "args": [],
+      "description": "Shared environment variables bridge for all agents",
+      "env": {
+        "SHARED_ENV_PATH": "/Users/peluche/.ai-agents/.env"
+      }
+    }
+  }
+}
